@@ -42,7 +42,11 @@
                     <li><a href="<?php echo site_url('dashboard/admin');  ?>"><i class="fa fa-circle-o"></i> Data Petugas</a></li>
                     <li><a href="<?php echo site_url('dosen/tampilDosen');  ?>"><i class="fa fa-circle-o"></i> Data Dosen</a></li>
                     <li><a href="<?php echo site_url('member');  ?>"><i class="fa fa-circle-o"></i> Data Member</a></li>
+<<<<<<< HEAD
                     <li><a href="<?php echo site_url('mahasiswa/tampilMahasiswa');  ?>"><i class="fa fa-circle-o"></i> Data Mahasiswa</a></li>
+=======
+                    <li><a href="<?php echo site_url('mahasiswa');  ?>"><i class="fa fa-circle-o"></i> Data Mahasiswa</a></li>
+>>>>>>> afa33100314e0d06b25e17115c0daa45ebeb79c2
                     <li><a href="<?php echo site_url('jurusan/tampilJurusan');  ?>"><i class="fa fa-circle-o"></i> Data Jurusan</a></li>
                     <li><a href="<?php echo site_url('jurusan/tampilProdi');  ?>"><i class="fa fa-circle-o"></i> Data Prodi</a></li>
                 </ul>

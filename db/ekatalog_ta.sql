@@ -2,8 +2,13 @@
 -- version 4.4.12
 -- http://www.phpmyadmin.net
 --
+<<<<<<< HEAD
 -- Host: 127.0.0.1:3306
 -- Generation Time: Dec 09, 2016 at 10:00 PM
+=======
+-- Host: 127.0.0.1
+-- Generation Time: Dec 07, 2016 at 11:47 AM
+>>>>>>> afa33100314e0d06b25e17115c0daa45ebeb79c2
 -- Server version: 5.6.25
 -- PHP Version: 5.6.11
 
@@ -102,10 +107,15 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
   `nama` varchar(100) NOT NULL,
   `id_jurusan` int(3) NOT NULL,
   `id_prodi` int(3) NOT NULL,
+<<<<<<< HEAD
+=======
+  `angkatan` int(4) NOT NULL,
+>>>>>>> afa33100314e0d06b25e17115c0daa45ebeb79c2
   `jk` varchar(1) NOT NULL,
   `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 --
 -- Dumping data for table `mahasiswa`
 --
@@ -113,6 +123,8 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
 INSERT INTO `mahasiswa` (`nim`, `nama`, `id_jurusan`, `id_prodi`, `jk`, `email`) VALUES
 ('1415323040', 'I Putu Sugita Wiguna', 1, 1, 'L', 'sugita95@hotmail.com');
 
+=======
+>>>>>>> afa33100314e0d06b25e17115c0daa45ebeb79c2
 -- --------------------------------------------------------
 
 --
